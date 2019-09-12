@@ -3,7 +3,7 @@
 This project is a sample of how to use the grid system from CSS.
 
 We can separate the grid system in two main groups, called `container` and `item(s)`, which will be
-explained above.
+explained below.
 
 
 ## Container
