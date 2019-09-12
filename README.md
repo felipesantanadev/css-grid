@@ -31,11 +31,13 @@ We can see some important container's properties below:
   ```
 
 - grid-gap: 20px;
+  
   Set the space between columns and rows.
 
 - grid-template-areas: "header header"
                        "main aside"
                        "footer footer";
+  
   Inform which item that contains the property `grid-areas` with the same value that should be positioned
   in the specified column and row.
 
@@ -49,17 +51,20 @@ The item is an element inside a grid. It can be positioned in columns and rows a
 We can see some important items' properties below:
 
 - grid-column-start: 1;
+  
   Set in which column the item must start.
 
 - grid-column-end: 3;
+  
   Set in which column the item must end.
 
 - grid-column: 1/3;
+  
   It's a shortcut for `grid-column-start` and `grid-column-end` above.
 
 - grid-areas: header;
+  
   Set the grid area name.
-
 
 
 ## Positioning
