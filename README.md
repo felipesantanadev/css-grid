@@ -11,10 +11,10 @@ explained above.
 The container is the grid area itself. It delimits the area that represents the grid.
 We can see some important container's properties below:
 
-- display: grid;
+- display: grid;  
   Set the element as a GRID.
 
-- grid-template-columns: 3fr 1fr;
+- grid-template-columns: 3fr 1fr;  
   Set the amount of columns that the grid will hold and the screen fraction that each column will occupy.
   
   ```
@@ -22,7 +22,7 @@ We can see some important container's properties below:
   grid-template-columns: 3fr 1fr;
   ```
 
-- grid-template-rows: 20vh 70vh 10vh;
+- grid-template-rows: 20vh 70vh 10vh;  
   Set the amount of rows that the grid will hold and the screen fraction that each row will occupy.
 
   ```
@@ -30,14 +30,12 @@ We can see some important container's properties below:
   grid-template-rows: 20vh 70vh 10vh;
   ```
 
-- grid-gap: 20px;
-  
+- grid-gap: 20px;  
   Set the space between columns and rows.
 
 - grid-template-areas: "header header"
                        "main aside"
-                       "footer footer";
-  
+                       "footer footer";  
   Inform which item that contains the property `grid-areas` with the same value that should be positioned
   in the specified column and row.
 
