@@ -48,20 +48,16 @@ We can see some important container's properties below:
 The item is an element inside a grid. It can be positioned in columns and rows as you need it.
 We can see some important items' properties below:
 
-- grid-column-start: 1;
-  
+- grid-column-start: 1;  
   Set in which column the item must start.
 
-- grid-column-end: 3;
-  
+- grid-column-end: 3;  
   Set in which column the item must end.
 
-- grid-column: 1/3;
-  
+- grid-column: 1/3;  
   It's a shortcut for `grid-column-start` and `grid-column-end` above.
 
-- grid-areas: header;
-  
+- grid-areas: header;  
   Set the grid area name.
 
 
